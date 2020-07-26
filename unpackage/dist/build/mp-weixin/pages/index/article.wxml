@@ -1,0 +1,1 @@
+<view><view class="txt"><text class="txt-title">{{article.title}}</text></view><view class="txt"><text class="txt-date">{{article.created_at}}</text></view><view class="txt"><text class="txt-content">{{article.content}}</text></view></view>

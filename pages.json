@@ -1,0 +1,286 @@
+{
+	"pages": [
+		{
+			"path": "pages/auth/auth",
+						"style": {
+							"navigationBarTitleText": "微信授权",
+							"app-plus": {
+								"titleNView": {
+									"type": "transparent"
+								}
+							}
+						}
+		},
+		{
+			"path": "pages/search/search",
+						"style": {
+							"navigationBarTitleText": "搜索",
+							"app-plus": {
+								"titleNView": {
+									"type": "transparent"
+								}
+							}
+						}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				// #ifdef MP 
+				"navigationBarTitleText": "Dloud商城",
+				//"navigationStyle": "custom",
+				// #endif 
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"searchInput": {
+							"backgroundColor": "rgba(231, 231, 231,.7)",
+							"borderRadius": "16px",
+							"placeholder": "请输入地址 如：大钟寺",
+							"disabled": true,
+							"placeholderColor": "#606266"
+						},
+						"buttons": [{
+								"fontSrc": "/static/yticon.ttf",
+								"text": "\ue60d",
+								"fontSize": "26",
+								"color": "#303133",
+								"float": "left",
+								"background": "rgba(0,0,0,0)"
+							},
+							{
+								"fontSrc": "/static/yticon.ttf",
+								"text": "\ue744",
+								"fontSize": "27",
+								"color": "#303133",
+								"background": "rgba(0,0,0,0)",
+								"redDot": true
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/product/product",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/set/set",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},{
+			"path":"pages/index/article",
+			"style": {
+				"navigationBarTitleText": "文章详情"
+			}
+		},{
+			"path": "pages/userinfo/userinfo",
+			"style": {
+				"navigationBarTitleText": "修改资料"
+			}
+		}, {
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		}, {
+			"path": "pages/public/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				// #ifdef MP
+				"navigationStyle": "custom",
+				// #endif
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent",
+						"buttons": [{
+								"fontSrc": "/static/yticon.ttf",
+								"text": "\ue60f",
+								"fontSize": "24",
+								"color": "#303133",
+								"width": "46px",
+								"background": "rgba(0,0,0,0)"
+							},
+							{
+								"fontSrc": "/static/yticon.ttf",
+								"text": "\ue744",
+								"fontSize": "28",
+								"color": "#303133",
+								"background": "rgba(0,0,0,0)",
+								"redDot": true
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		// {
+		// 	"path": "pages/money/money",
+		// 	"style": {}
+		// }, 
+		{
+			"path": "pages/order/orderDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},{
+			"path": "pages/order/orderSell",
+			"style": {
+				"navigationBarTitleText": "订单授权"
+			}
+		},
+		{
+			"path": "pages/order/orderParticulars",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		}, 
+		{
+			"path": "pages/order/orderCode",
+			"style": {
+				"navigationBarTitleText": "售货机详情"
+			}
+		},
+		{
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		},{
+			"path": "pages/address/addressManager",
+			"style": {
+				"navigationBarTitleText": "地址管理"
+			}
+		},{
+			"path": "pages/user/recharge",
+			"style": {
+				"navigationBarTitleText": "余额充值"
+			}
+		},
+		{
+			"path": "pages/user/balance",
+			"style": {
+				"navigationBarTitleText": "余额明细"
+			}
+		},
+		// {
+		// 	"path": "pages/money/paySuccess",
+		// 	"style": {
+		// 		"navigationBarTitleText": "支付成功"
+		// 	}
+		// }
+	    // ,
+		// {
+  //           "path" : "pages/notice/notice",
+  //           "style" : {
+		// 		"navigationBarTitleText": "通知"
+		// 	}
+  //       }
+  //       ,
+		{
+            "path" : "pages/category/category",
+            "style" : {
+				"navigationBarTitleText": "分类",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/product/list",
+            "style" : {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "商品列表"
+			}
+        }
+  
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#f8f8f8"
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#000000",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tab-home.png",
+				"selectedIconPath": "static/temp/index/index.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/category/category",
+				"iconPath": "static/temp/index/classify1.png",
+				"selectedIconPath": "static/temp/index/classify.png",
+				"text": "分类"
+			},
+			{	
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/temp/index/shopping1.png",
+				"selectedIconPath": "static/temp/index/shopping2.png",
+				"text": "购物车"
+			},{
+				"pagePath": "pages/order/order",
+				"iconPath": "static/temp/index/order1.png",
+				"selectedIconPath": "static/temp/index/order.png",
+				"text": "我的订单"				
+			},{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/temp/index/person1.png",
+				"selectedIconPath": "static/temp/index/person.png",
+				"text": "我的"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "分类",
+  "usingComponents": {
+    "uni-search-bar": "/components/uni-search-bar/uni-search-bar",
+    "uni-collapse": "/components/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/components/uni-collapse-item/uni-collapse-item",
+    "lc-number-box": "/components/lc-number-box/lc-numberBox",
+    "uni-number-box": "/components/uni-number-box/uni-number-box"
+  }
+}

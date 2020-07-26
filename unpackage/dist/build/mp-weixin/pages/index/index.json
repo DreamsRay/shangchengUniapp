@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Dloud商城",
+  "usingComponents": {
+    "uni-search-bar": "/components/uni-search-bar/uni-search-bar",
+    "mrhard-tabbar": "/components/mrhard-tabbar/mrhard-tabbar"
+  }
+}
